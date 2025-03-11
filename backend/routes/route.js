@@ -1,4 +1,8 @@
 const router = require('express').Router();
+const { upload, uploadFile } = require('../controllers/upload-controller.js');
+
+// File Upload
+router.post('/upload', upload.single('file'), uploadFile);
 
 // const { adminRegister, adminLogIn, deleteAdmin, getAdminDetail, updateAdmin } = require('../controllers/admin-controller.js');
 
