@@ -1,0 +1,8 @@
+runtime: nodejs18
+env: standard
+instance_class: F2 # (Optional: Adjust instance type based on needs)
+
+handlers:
+  - url: /.*
+    script: auto
+    secure: always
