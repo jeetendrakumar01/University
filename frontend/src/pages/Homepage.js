@@ -17,9 +17,8 @@ const Homepage = () => {
                         <StyledTitle>
                             Welcome to
                             <br />
-                            University Management WEbsite
+                            University Management System
                             <br />
-                            System
                         </StyledTitle>
                         <StyledText>
                             Streamline University management, class organization, and add students and faculty.
